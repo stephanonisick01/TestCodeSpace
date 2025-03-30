@@ -25,7 +25,7 @@ const htmlContent = `
 </body>
 </html>
 `;
-//Another Comment
+
 // Write the HTML content to a file
 const fs = require('fs');
 fs.writeFileSync('index.html', htmlContent);
